@@ -1,35 +1,110 @@
 <!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project - HTML</title>
-  
-</head>
-<body>
-  <header>
-    <h1>BERANDA</h1>
-    <p>
-
-    <a href="contact.html">Kontak </a>
-    <P>
-      <a href="gallery.html">Gallery</a>
-    </P>
-  <p> <a href="blog.html">Blog</a>
-  </p>
-   
-  </header>
-  <main>
-    <section id="about">
-      <h3>Tentang</h3>
-      <p>Tugas HTML untuk MataKuliah Pemograman Web</p>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Tugas Web</title>
+       
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!--body-->
+        <header class="header">
+       
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">HOME</a>
+                <a href="#blog">BLOG</a>
+                <a href="#galery">GALERY</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+        </header>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Tugas Pemrogaman Web</h1>
+                
+                <h3 style="color: #0ef;">Fiorentine Diva 220211060073</h3>
+                
+             
+            </div>
+            
+        </section>
       
-    </section>
-   
-  </main>
+        <section class="services"id="blog">
+            <h2 class="heading"><span>Blog</span></h2>
 
-  <footer>
-    <p>Fiorentine Diva 220211060073</p>
-</footer>
-</body>
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Mengelola Stres dengan Teknik Mindfulness</h3>
+                    <p>Teknik mindfulness, yang melibatkan kesadaran dan perhatian pada saat ini tanpa penilaian, telah terbukti efektif dalam
+                    mengurangi stres dan meningkatkan kesejahteraan secara keseluruhan. Dengan latihan yang teratur, Anda dapat belajar
+                    untuk menghadapi tantangan sehari-hari dengan lebih tenang dan terfokus, serta meningkatkan hubungan interpersonal dan
+                    kepuasan hidup secara keseluruhan.</p>
+                    <a href="#"class="btn">Selengkapnya</a>
+                </div>
+        
+                <div class="services-box">
+                    <i class='bx bx-crop' ></i>
+                    <h3>Memahami Dampak Perubahan Iklim Terhadap Kesehatan</h3>
+                    <p>Perubahan iklim tidak hanya mempengaruhi lingkungan, tetapi juga memiliki dampak yang signifikan pada kesehatan manusia.
+                    Dari meningkatnya suhu global hingga meningkatnya tingkat polusi udara, perubahan iklim telah dikaitkan dengan berbagai
+                    masalah kesehatan, termasuk penyakit pernapasan, gangguan mental, dan penyebaran penyakit menular. Penting untuk
+                    meningkatkan kesadaran akan dampak ini dan mengambil langkah-langkah untuk mengurangi jejak karbon kita.</p>
+                    <a href="#"class="btn">Selengkapnya</a>
+                </div>
+            
+                <div class="services-box">
+                    <i class='bx bxl-instagram-alt' ></i>
+                    <h3>Pentingnya Pendidikan Finansial di Era Modern</h3>
+                    <p>Pendidikan finansial merupakan kunci penting untuk mencapai kestabilan keuangan dan kesuksesan jangka panjang. Di era
+                    modern ini, di mana banyak orang terbebani oleh utang dan tidak memiliki pengetahuan yang cukup tentang bagaimana
+                    mengelola uang mereka, pendidikan finansial menjadi semakin penting. Dengan mempelajari konsep-konsep dasar seperti
+                    pengelolaan anggaran, investasi, dan penghematan, individu dapat membangun fondasi yang kuat untuk masa depan keuangan
+                    mereka. </p>
+                    <a href="#"class="btn">Selengkapnya</a>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio"id="gallery">
+            <h2 class="heading">My<span>Gallery</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="assets/images/Gambar1.jpg" alt="Foto 1">
+                    
+                </div>
+                <div class="portfolio-box">
+                    <img src="assets/images/Gambar2.jpg" alt="Foto 2">
+                
+                </div>
+                <div class="portfolio-box">
+                    <img src="assets/images/Gambar3.jpg" alt="Foto 3">
+                
+                </div>
+                
+                
+            </div>
+        </section>
+        <section class="contact"id="contact">
+            <h2 class="heading">Contact<span>ME!</span></h2>
+            <h3 style="font-size: 40px;" class="heading">Email : <span tyle="font-size: 40px;">fiorentdiva@gmail.com</span></h3>
+            <h3 style="font-size: 40px;" class="heading">Telepon: <span tyle="font-size: 40px;">085256577122</span></h3>
+         
+
+            
+        </section>
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>&copy; Fiorentine Diva 220211060073</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+            </div>
+        </footer>
+
+       
+        
+    </body>
 </html>
